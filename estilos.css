@@ -1,24 +1,31 @@
 /* aplicamos colores, tamaños y fuente a los elementos de la página web. */
+/* agregamos el fonnt Verdana a todo el documento  */
 body {
     font-family: Verdana;
- 
-}
+ }
 
+/* agregamos los tamaños en la imagen de la página web */ 
 img {
     width: 400px;
     height: 200px;
 }
+
+/* agregamos el color azul y el tamaño fuente a los "links" de la pagina web */
 a{
     color:blue;
     font-size: 12px;
 }
-
+/*agregamos el color al titulo de la pagina web y tamaño */
 h1 {
     color: #000; font-size: 20px;
 }
+
+/*agregamos  el color a las secciones de la pagina  y tamaño */
 h2 {
     color: #333; font-size: 16px;
 }
+
+/*agregamos el color a los parrafos, lista y parte de la tabla   de la pagina web y tamaño */
 p, li, td {
     color: #000; font-size: 12px;
 }
@@ -28,14 +35,21 @@ table, td, th {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+/*aplicamos el padding a la tabla */
 td, th {
     padding: 10px;
 }
+
+/*aplicamos el bg del head de la  tabla */
+
 thead {
     background-color: #666;
     color: white;
     font-size: 12px;
 }
+/*aplicamos el bg del footer de la  tabla */
+
 tfoot {
     background-color: #ccc;
 }
